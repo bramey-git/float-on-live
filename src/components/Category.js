@@ -24,7 +24,7 @@ const Category = ({ category, setCategory, setPuzzle, setPlayable }) => {
         <Col lg='6'>
           <div>
             <h1>Select a Category</h1>
-            <h4>Guess the letters in the answer to solve the puzzle and float on!
+            <h4 className='m-3'>Guess the letters in the answer to solve the puzzle and float on!
               If the puzzle is not solved in eight (8) guesses or less, your
               ship will sink, and you will not float on to paradise</h4>
             {categoryList.map((category) => {
