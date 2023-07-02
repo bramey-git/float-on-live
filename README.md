@@ -28,3 +28,12 @@ A Project By B Ramey
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to play it in your browser.
+
+
+Play Now!
+
+
+keyboard required
+
+
+Open [HERE](https://bramey-git.github.io/float-on/) to play.
