@@ -6,12 +6,6 @@
   min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  background-image: linear-gradient(to bottom right, #C3CB5D, #977FD7, #DE5B49);
-}
-
 .App-header {
   background-color: #1F1D18;
 }

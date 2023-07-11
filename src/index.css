@@ -8,14 +8,14 @@ body {
 }
 
 .boat {
-  min-height: 30vh;
+  min-height: 20vh;
 }
 
 button.category {
   color: #000000;
   padding: 10px;
   margin: 5px;
-  background-image: linear-gradient(to bottom right, #6E3148, #78AE99, #122624)
+  background-image: linear-gradient(to bottom right, #6E3148, #78AE99, #122624);
 }
 
 button.category:hover {
@@ -25,7 +25,7 @@ button.category:hover {
 }
 
 .puzzle-box {
-  min-height: 30vh;
+  min-height: 25vh;
 }
 
 .puzzle-head {
@@ -41,8 +41,8 @@ button.category:hover {
 
 .letter {
   border-bottom: 5px solid #1F1D18;
-  display: inline-flex;
-  font-size: calc(8px + 2vmin);
+  display: inline-table;
+  font-size: calc(10px + 2vmin);
   margin: 0 3px;
   padding: 2px;
   height: 5vh;
@@ -57,15 +57,39 @@ button.category:hover {
   margin: 0 0 5px;
 }
 
+.wrong span, .guessed span {
+  font-size: calc(6px + 2vmin);
+}
+
 .wrong span {
-  font-size: calc(4px + 2vmin)
+  color: red;
+}
+
+.guessed span {
+  color: #1F1D18;
 }
 
 .hint {
   margin-top: 10px;
   padding: 10px;
-  font-size: calc(6px + 2vmin);
+  font-size: calc(8px + 2vmin);
   font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.simple-keyboard {
+  padding: 0;
+}
+
+.simple-keyboard.hg-theme-default.classic {
+  background: #698E8E;
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+.simple-keyboard.hg-layout-default .hg-button {
+  font-size: calc(8px + 2vmin);
+  background: #122624;
+  color: white;
 }
 
 .result-container {
