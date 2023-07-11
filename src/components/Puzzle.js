@@ -18,6 +18,9 @@ const Puzzle = ({ puzzle, correctGuesses }) => {
         <Col xs lg='2'></Col>
         <Col lg='8'>
           <h1 className='puzzle-head'>Guess the letters to solve the puzzle!</h1>
+          <h4 className='m-3'>
+            If the puzzle is not solved in eight (8) guesses or less, your
+            ship will sink, and you will not float on to paradise.</h4>
           <div className='puzzle'>
             {puzzle.name.split('').map( (letter, i) => {
               if (letter === ' ') {
