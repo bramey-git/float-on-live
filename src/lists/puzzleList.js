@@ -709,6 +709,7 @@ const puzzleList = [
       'Britain won all three medals as well.',
     'CategoryId' : '5'
   },
+  /*
   {
     'id': '98',
     'name': 'Connect 4',
@@ -719,6 +720,7 @@ const puzzleList = [
       '4,531,985,219,092 possible positions on a standard board.',
     'CategoryId' : '5'
   },
+  */
   {
     'id': '99',
     'name': 'Candy Land',
