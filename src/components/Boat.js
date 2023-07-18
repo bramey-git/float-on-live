@@ -3,7 +3,7 @@ import React from 'react'
 const Boat = ({wrongGuesses}) => {
   const hits = wrongGuesses.length
   return (
-    <svg height='256px' width='256px' viewBox='-10.09 -10.09 524.72 524.72' fill='#000000'>
+    <svg height='256px' width='256px' viewBox='-10.09 -10.09 524.72 524.72' fill='#000000' role='image'>
       <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
       <g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g>
       <g id='SVGRepo_iconCarrier'>
