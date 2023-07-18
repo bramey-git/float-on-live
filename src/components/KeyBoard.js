@@ -10,7 +10,7 @@ const KeyBoard = ({ checkLetter }) => {
   return (
     <Row className='keyboard m-0'>
       <Col xs lg='2'></Col>
-      <Col lg='8'>
+      <Col lg='8' role='keyboard'>
         <Keys
           theme={'hg-theme-default hg-layout-d classic'}
           onKeyPress={checkLetter}
